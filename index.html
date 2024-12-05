@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz da Logo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="home-page" class="page">
+      <h1>Quiz da <img src="img/logo[1].png" alt=""> <span class="logo-placeholder"></span></h1>
+      <button onclick="startQuiz()">Começar</button>
+    </div>
+
+    <div id="question-page" class="page hidden">
+      <h2 id="question-text"></h2>
+      <div id="options-container"></div>
+    </div>
+
+    <div id="final-page" class="page hidden">
+      <h2>Parabéns! Você respondeu todas as perguntas!</h2>
+      <p>Você está pronto para embarcar! 🌍✈️</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
